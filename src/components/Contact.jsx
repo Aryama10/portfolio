@@ -27,11 +27,13 @@ function Contact() {
 
       <div
         style={{
-          width: "400px",
+          width: "100%",
+          maxWidth: "400px",
           margin: "auto",
           padding: "30px",
           borderRadius: "10px",
-          boxShadow: "0px 2px 10px gray"
+          boxShadow: "0px 2px 10px gray",
+          boxSizing: "border-box"
         }}
       >
         <input
@@ -69,7 +71,7 @@ function Contact() {
             border: "1px solid #ccc",
             resize: "none"
           }}
-        ></textarea>
+        />
 
         <button
           style={{
@@ -86,7 +88,7 @@ function Contact() {
         </button>
       </div>
     </section>
-  );
+  )
 }
 
 export default Contact;

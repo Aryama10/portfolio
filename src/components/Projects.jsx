@@ -5,7 +5,7 @@ function Projects() {
   return (
      <section 
         id="projects"
-         style={{ padding: "50px",
+         style={{ padding: "50px 20px",
          textAlign: "center" }} >
        <h1 
        style={{ fontSize: "40px",
@@ -22,7 +22,8 @@ function Projects() {
   {/* Project 1 */}
   <div
     style={{
-      width: "350px",
+      width: "100%",
+      maxWidth:"350px",
       padding: "20px",
       borderRadius: "10px",
       boxShadow: "0px 2px 10px gray"
@@ -66,7 +67,8 @@ function Projects() {
   {/* Project 2 */}
   <div
     style={{
-      width: "350px",
+      width: "100%",
+      maxWidth:"350px",
       padding: "20px",
       borderRadius: "10px",
       boxShadow: "0px 2px 10px gray"
